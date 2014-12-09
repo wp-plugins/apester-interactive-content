@@ -3,14 +3,15 @@
  * @package Qmerce
  */
 /*
-Plugin Name: Qmerce Interactive Content
-Plugin URI: http://qmerce.com/
-Description: Qmerce makes it easy to create and monetize interactive content such as trivia, polls, personality quizzes and more.
-Version: 1.0.0
-Author: Qmerce
-Author URI: http://qmerce.com/
+Plugin Name: Apester Interactive Content
+Plugin URI: http://apester.co/
+Description: The Apester Interactive Content plugin allows anyone to easily and freely create, embed and share interactive, playful and related content items (polls, trivia, etc.) into posts and articles, in a matter of seconds.
+If you wish for better engagement, virality, circulation, native advertisement campaigns and monetization results, you came to the right place!
+Version: 1.3
+Author: Apester
+Author URI: http://apester.co/
 License: GPLv2 or later
-Text Domain: qmerce
+Text Domain: apester
 */
 
 /*
@@ -30,7 +31,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
 define( 'QMERCE_MINIMUM_WORDPRESS_VERSION', '3.8' );
-define( 'QMERCE_VERSION', '1.0.0' );
+define( 'QMERCE_VERSION', '1.3' );
 define( 'QMERCE_INTERACTION_BASEURL', 'https://interaction.qmerce.com' );
 define( 'QMERCE_EDITOR_BASEURL', 'https://editor.qmerce.com' );
 define( 'QMERCE_USER_SERVICE', 'https://users.qmerce.com' );

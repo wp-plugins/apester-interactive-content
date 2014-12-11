@@ -1,5 +1,5 @@
 <div class="wrap">
-    <h2>Qmerce Settings</h2>
+    <h2>Apester Settings</h2>
     <form method="post" action="options.php">
         <?php
         // This prints out all hidden setting fields

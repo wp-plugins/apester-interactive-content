@@ -23,8 +23,8 @@ class Qmerce_Settings
     {
         // This page will be under "Settings"
         add_options_page(
-            'Qmerce Settings',
-            'Qmerce Settings',
+            'Apester Settings',
+            'Apester Settings',
             'manage_options',
             'qmerce-settings-admin',
             array( $this, 'createAdminPage' )
@@ -62,7 +62,7 @@ class Qmerce_Settings
 
         add_settings_field(
             'auth_token',
-            'Qmerce authorization token',
+            'Apester authorization token',
             array( $this, 'authTokenCallback' ),
             'qmerce-settings-admin',
             'setting_section_id'
@@ -143,7 +143,7 @@ class Qmerce_Settings
     }
 
     /**
-     * Validates Qmerce authToken
+     * Validates Apester authToken
      * @param string $value
      * @return bool
      */

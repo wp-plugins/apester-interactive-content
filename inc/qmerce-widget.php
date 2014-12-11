@@ -13,7 +13,7 @@ class QmerceWidget extends WP_Widget {
     public function QmerceWidget()
     {
         $this->tagComposer = new QmerceTagComposer();
-        $this->WP_Widget('qmerce_widget', 'Qmerce Challenge Widget', array('description' => 'Chosen automated Qmerce challenge from your `My Stuff` inventory'));
+        $this->WP_Widget('qmerce_widget', 'Apester Challenge Widget', array('description' => 'Chosen automated Apester challenge from your `My Stuff` inventory'));
     }
 
     /**

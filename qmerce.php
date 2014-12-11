@@ -7,7 +7,7 @@ Plugin Name: Apester Interactive Content
 Plugin URI: http://apester.co/
 Description: The Apester Interactive Content plugin allows anyone to easily and freely create, embed and share interactive, playful and related content items (polls, trivia, etc.) into posts and articles, in a matter of seconds.
 If you wish for better engagement, virality, circulation, native advertisement campaigns and monetization results, you came to the right place!
-Version: 1.3
+Version: 1.4
 Author: Apester
 Author URI: http://apester.co/
 License: GPLv2 or later

@@ -22,7 +22,7 @@ class QmerceTagComposer {
     }
 
     /**
-     * Returns the user ID according to the given Qmerce Token (in settings panel)
+     * Returns the user ID according to the given Apester Token (in settings panel)
      * @return mixed|void
      */
     private function getUserId()

@@ -66,7 +66,7 @@ class Qmerce_Admin_Box
             return;
         }
 
-        add_meta_box( 'qmerce_challenges', __( 'Qmerce Challenges', 'qmerce_text' ), array( $this, 'renderMetaBoxContent' ), $postType, 'advanced', 'high' );
+        add_meta_box( 'qmerce_challenges', __( 'Apester Challenges', 'qmerce_text' ), array( $this, 'renderMetaBoxContent' ), $postType, 'advanced', 'high' );
     }
 
     /**
@@ -104,7 +104,7 @@ class Qmerce_Admin_Box
         $authToken = $this->getAccessToken();
 
         if ( !$authToken ) {
-            echo '<p>Please go to <a href="options-general.php?page=qmerce-settings-admin">Qmerce Settings</a> and update your access token</p>';
+            echo '<p>Please go to <a href="options-general.php?page=qmerce-settings-admin">Apester Settings</a> and update your access token</p>';
             return;
         }
 

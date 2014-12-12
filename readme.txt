@@ -49,28 +49,28 @@ If you wish for better engagement, virality, circulation, native advertisement c
 
 == Frequently Asked Questions ==
 
-**Q:** Why should I embed content from the Apester network?
+**Q:** Why should I embed content from the Apester network?<br />
 **A:** Our content is created by our network of partners and editorial staff. We feature highly engaging items related to sports and entertainment. Embedding these items on your site is likely to boost all of your engagement metrics - page views, ad impressions, sharing rate etc. 
 Furthermore, it enhances your site’s content by complementing it with highly packaged content.
  
-**Q:** How does Apester help me make my content viral?
+**Q:** How does Apester help me make my content viral?<br />
 **A:** Our plugin includes an option to share each item on social networks such as Facebook, Twitter, Pinterest and Reddit. Clicking on one of the 'Share' buttons will create a shared link directing users to your website.
  
-**Q:** Does Apester work on mobile and tablet versions of my website?
+**Q:** Does Apester work on mobile and tablet versions of my website?<br />
 **A:** Yes - Apester’s UI is responsive and mobile compatible.
  
-**Q:** Can I create my own content?
+**Q:** Can I create my own content?<br />
 **A:** Definitely - we encourage users to create original playful content using our content creator. 
  
-**Q:** Does this plugin slow down my website?
+**Q:** Does this plugin slow down my website?<br />
 **A:** Absolutely not - Apester uses a large content delivery network to ensure prompt delivery.
  
-**Q:** How do I embed Apester’s content?
+**Q:** How do I embed Apester’s content?<br />
 **A:** There are two ways to embed Apester’s content.
 1. For basic usage, all you need is to use a URL. Copy the item/section URL from http://apester.com and paste it to your post.
 2. Advanced users can use Apester shortcodes using attributes to tweak the result.
  
-**Q:** Which shortcode attributes can I use?
+**Q:** Which shortcode attributes can I use?<br />
 **A:** You can find the full attribute list in 'Settings' -> 'Apester' - > 'Help'.
  
 I have more questions.

@@ -85,3 +85,6 @@ For more information please [Contact Us](http://apester.com).
 5. Interactive Trivia Results
 
 == Changelog ==
+
+= 1.5 =
+* First working version.

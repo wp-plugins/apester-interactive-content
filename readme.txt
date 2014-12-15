@@ -4,7 +4,7 @@ Contributors: benkalsky, tomarad, shushu.i
 Tags: Interactive, Interactive Content, Content, Related Content, Embedded Content, Test Yourself, Viral, Circulation, Engagement, Monetization, Playful Content, Interactive Platform, Playful Platform
 Requires at least: 2.8
 Tested up to: 4.0.1
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,9 @@ For more information please [Contact Us](http://apester.com).
 5. Interactive Trivia Results
 
 == Changelog ==
+
+= 1.6 =
+* Add links from settings page.
 
 = 1.5 =
 * First working version.

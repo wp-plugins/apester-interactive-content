@@ -74,7 +74,7 @@ Furthermore, it enhances your site’s content by complementing it with highly p
 **A:** You can find the full attribute list in 'Settings' -> 'Apester' - > 'Help'.
  
 I have more questions.
-For more information please [Contact Us](http://apester.com).
+For more information please [Contact Us](mailto:info@qmerce.com).
 
 == Screenshots ==
 

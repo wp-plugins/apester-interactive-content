@@ -253,7 +253,7 @@ class Qmerce_Settings
         );
 
         printf(
-            '<BR/>Get a token at <a href="https://editor.qmerce.com/#/register" target=_blank>Apester.com</a> (you can find it in your user <a href="https://editor.qmerce.com/#/settings" target=_blank>settings</a>.)<BR/>'
+            '<BR/>Get a token at <a href="' . QMERCE_EDITOR_BASEURL .'/#/register" target=_blank>Apester.com</a> (you can find it in your user <a href="' . QMERCE_EDITOR_BASEURL .'/#/settings" target=_blank>settings</a>.)<BR/>'
         );
     }
 }

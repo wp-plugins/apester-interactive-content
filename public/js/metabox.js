@@ -7,7 +7,7 @@
             chooseInteraction: chooseInteraction,
             interactionCreated: closeAndEmbed
         },
-        baseUrl = 'https://editor.qmerce.com';
+        baseUrl = configuration.editorBaseUrl;
 
     function embedInteraction(id) {
         var content = tinymce.editors[0].getContent(),

@@ -4,7 +4,7 @@ Contributors: benkalsky, tomarad, shushu.i
 Tags: Interactive, Interactive Content, Content, Related Content, Embedded Content, Test Yourself, Viral, Circulation, Engagement, Monetization, Playful Content, Interactive Platform, Playful Platform
 Requires at least: 2.8
 Tested up to: 4.0.1
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,7 +74,7 @@ Furthermore, it enhances your site’s content by complementing it with highly p
 **A:** You can find the full attribute list in 'Settings' -> 'Apester' - > 'Help'.
  
 I have more questions.
-For more information please [Contact Us](mailto:info@qmerce.com).
+For more information please [Contact Us](http://apester.com).
 
 == Screenshots ==
 
@@ -85,6 +85,9 @@ For more information please [Contact Us](mailto:info@qmerce.com).
 5. Interactive Trivia Results
 
 == Changelog ==
+
+= 1.7 =
+* Avoid showing random interactions when manual interactions exist on the same page.
 
 = 1.6 =
 * Add links from settings page.

@@ -2,13 +2,25 @@
     'use strict';
 
     var document = window.document,
-        baseUrl = 'http://renderer.qmerce.com';
+        baseUrl = configuration.rendererBaseUrl;
 
     /**
      * Bootstraps the script and replaces embed elements with interactions iframe
      */
     function boot() {
-        findEmbeds().forEach(replace);
+        // Render all manual interactions.
+        var manualEmbeds = findEmbeds({random: false});
+        if (manualEmbeds.length > 0) {
+            manualEmbeds.forEach(replace);
+        }
+        else {
+            // No manual interactions - render all random interactions.
+            findEmbeds({random: true}).forEach(replace);
+        }
+
+        // Disable listeners to avoid double boot executions.
+        document.removeEventListener('DOMContentLoaded', boot);
+        window.removeEventListener('load', boot);
     }
 
     /**
@@ -76,14 +88,23 @@
         return baseUrl + '/interaction/' + id;
     }
 
-
-
     /**
      * Finds embed elements within the current DOM
      * @returns {*}
      */
-    function findEmbeds() {
-        return Array.prototype.slice.call(document.getElementsByTagName('interaction'), 0);
+    function findEmbeds(filter) {
+        if (!filter) {
+            return Array.prototype.slice.call(document.getElementsByTagName('interaction'), 0);
+        }
+        var filetered = Array.prototype.slice.call(document.getElementsByTagName('interaction'), 0);
+        for (var index = 0; index < filetered.length; index++) {
+            var elm = filetered[index];
+            if ((filter.random && elm.dataset.random == undefined) ||
+                (!filter.random && elm.dataset.random != undefined)) {
+                filetered.splice(index, 1);
+            }
+        }
+        return filetered;
     }
 
     onDocumentReady(boot);

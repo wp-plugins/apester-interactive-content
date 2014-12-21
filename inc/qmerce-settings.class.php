@@ -251,6 +251,10 @@ class Qmerce_Settings
             '<input type="text" id="auth_token" name="qmerce-settings-admin[auth_token]" value="%s" size="24" />',
             isset($this->options['auth_token'] ) ? esc_attr( $this->options['auth_token'] ) : ''
         );
+
+        printf(
+            '<BR/>Get a token at <a href="' . QMERCE_EDITOR_BASEURL .'/#/register" target=_blank>Apester.com</a> (you can find it in your user <a href="' . QMERCE_EDITOR_BASEURL .'/#/settings" target=_blank>settings</a>.)<BR/>'
+        );
     }
 }
 

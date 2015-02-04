@@ -7,9 +7,9 @@ Plugin Name: Apester Interactive Content
 Plugin URI: http://apester.co/
 Description: The Apester Interactive Content plugin allows anyone to easily and freely create, embed and share interactive, playful and related content items (polls, trivia, etc.) into posts and articles, in a matter of seconds.
 If you wish for better engagement, virality, circulation, native advertisement campaigns and monetization results, you came to the right place!
-Version: 1.4
+Version: 1.8
 Author: Apester
-Author URI: http://apester.co/
+Author URI: http://apester.com/
 License: GPLv2 or later
 Text Domain: apester
 */
@@ -31,10 +31,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
 define( 'QMERCE_MINIMUM_WORDPRESS_VERSION', '3.8' );
-define( 'QMERCE_VERSION', '1.3' );
-define( 'QMERCE_INTERACTION_BASEURL', 'https://interaction.qmerce.com' );
-define( 'QMERCE_EDITOR_BASEURL', 'https://editor.qmerce.com' );
-define( 'QMERCE_USER_SERVICE', 'https://users.qmerce.com' );
+define( 'QMERCE_VERSION', '1.8' );
+define( 'QMERCE_SDK_VERSION', 'v1.1' );
+// For dev: define( 'QMERCE_SDK_VERSION', 'dev' );
+define( 'QMERCE_INTERACTION_BASEURL', 'http://interaction.qmerce.com' );
+define( 'QMERCE_EDITOR_BASEURL', 'http://editor.qmerce.com' );
+define( 'QMERCE_USER_SERVICE', 'http://users.qmerce.com' );
+define( 'QMERCE_RENDERER_BASEURL', 'http://renderer.qmerce.com' );
+define( 'QMERCE_STATIC_BASEURL', 'http://static.qmerce.com/js/sdk/' );
 define( 'QMERCE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'QMERCE__PLUGIN_FILE', __FILE__ );
 
@@ -58,8 +62,12 @@ add_filter('the_content', array(new QmerceAutomation(), 'renderHtml'));
 
 // Add SDK
 function qmerce_add_sdk() {
-    wp_register_script( 'qmerce_js_sdk', plugins_url( '/public/js/qmerce-sdk.js', QMERCE__PLUGIN_FILE ) );
+    $configuration = array(
+        'rendererBaseUrl' => QMERCE_RENDERER_BASEURL,
+    );
+    wp_register_script( 'qmerce_js_sdk', QMERCE_STATIC_BASEURL . '/' . QMERCE_SDK_VERSION . '/apester-sdk.js' );
     wp_enqueue_script( 'qmerce_js_sdk' );
+    wp_localize_script( 'qmerce_js_sdk', 'configuration', $configuration);
 }
 
 function qmerce_register_widgets() {

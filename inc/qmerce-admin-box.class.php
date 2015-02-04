@@ -41,6 +41,9 @@ class Qmerce_Admin_Box
      */
     public function addStyles()
     {
+        $configuration = array(
+          'editorBaseUrl' => QMERCE_EDITOR_BASEURL,
+        );
         wp_register_style( 'qmerce_metabox', plugins_url( '/public/css/metabox.css', QMERCE__PLUGIN_FILE ) );
         wp_enqueue_style( 'qmerce_metabox' );
 
@@ -49,9 +52,12 @@ class Qmerce_Admin_Box
 
         wp_register_script( 'qmerce_metabox_scripts', plugins_url( '/public/js/metabox.js', QMERCE__PLUGIN_FILE ) );
         wp_enqueue_script( 'qmerce_metabox_scripts' );
+        wp_localize_script( 'qmerce_metabox_scripts', 'configuration', $configuration);
 
         wp_register_script( 'qmerce_modal_scripts', plugins_url( '/public/js/modal.js', QMERCE__PLUGIN_FILE ) );
         wp_enqueue_script( 'qmerce_modal_scripts' );
+        wp_localize_script( 'qmerce_modal_scripts', 'configuration', $configuration);
+
     }
 
     /**
@@ -96,7 +102,8 @@ class Qmerce_Admin_Box
     }
 
     /**
-     * Renders meta box to content
+     * Renders meta box to content.
+     *
      * @param $post
      */
     public function renderMetaBoxContent($post)

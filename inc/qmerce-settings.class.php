@@ -227,7 +227,9 @@ class Qmerce_Settings
                 return $this->preserveValue();
             }
 
+            // Delete the unused user-id value.
             delete_option( 'qmerce-user-id' );
+
             $newInput['auth_token'] = sanitize_text_field( $input['auth_token'] );
         }
 

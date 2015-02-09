@@ -65,7 +65,7 @@ function qmerce_add_sdk() {
     $configuration = array(
         'rendererBaseUrl' => QMERCE_RENDERER_BASEURL,
     );
-    wp_register_script( 'qmerce_js_sdk', QMERCE_STATIC_BASEURL . '/' . QMERCE_SDK_VERSION . '/apester-sdk.js' );
+    wp_register_script( 'qmerce_js_sdk', QMERCE_STATIC_BASEURL . '/' . QMERCE_SDK_VERSION . '/apester-sdk.min.js' );
     wp_enqueue_script( 'qmerce_js_sdk' );
     wp_localize_script( 'qmerce_js_sdk', 'configuration', $configuration);
 }

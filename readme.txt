@@ -4,7 +4,7 @@ Contributors: benkalsky, tomarad, shushu.i
 Tags: Interactive, Interactive Content, Content, Related Content, Embedded Content, Test Yourself, Viral, Circulation, Engagement, Monetization, Playful Content, Interactive Platform, Playful Platform
 Requires at least: 2.8
 Tested up to: 4.1
-Stable tag: 1.7
+Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

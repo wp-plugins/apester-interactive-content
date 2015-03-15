@@ -31,14 +31,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
 define( 'QMERCE_MINIMUM_WORDPRESS_VERSION', '2.8' );
-define( 'QMERCE_VERSION', '1.8' );
+define( 'QMERCE_VERSION', '1.9' );
 define( 'QMERCE_SDK_VERSION', 'v1.1' );
 // For dev: define( 'QMERCE_SDK_VERSION', 'dev' );
 define( 'QMERCE_INTERACTION_BASEURL', 'http://interaction.qmerce.com' );
 define( 'QMERCE_EDITOR_BASEURL', 'http://editor.qmerce.com' );
 define( 'QMERCE_USER_SERVICE', 'http://users.qmerce.com' );
 define( 'QMERCE_RENDERER_BASEURL', 'http://renderer.qmerce.com' );
-define( 'QMERCE_STATIC_BASEURL', 'http://static.qmerce.com/js/sdk' );
+define( 'QMERCE_STATIC_BASEURL', 'http://static.apester.com/js/sdk' );
 define( 'QMERCE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'QMERCE__PLUGIN_FILE', __FILE__ );
 

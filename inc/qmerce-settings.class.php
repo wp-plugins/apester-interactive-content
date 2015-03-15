@@ -69,6 +69,14 @@ class Qmerce_Settings
         );
 
         add_settings_field(
+            'helper_info',
+            'Where do I find my token?',
+            array( $this, 'printHelperInfo' ),
+            'qmerce-settings-admin',
+            'setting_section_id'
+        );
+
+        add_settings_field(
             'post_types',
             'Post types for admin box',
             array( $this, 'postTypesCb' ),
@@ -78,7 +86,7 @@ class Qmerce_Settings
 
         add_settings_field(
             'automation_post_types',
-            'Post Types with automated qmerce interactive widget below the main content',
+            'Post Types with automated Apester interactive widget below the main content',
             array( $this, 'automationPostTypeCb' ),
             'qmerce-settings-admin',
             'setting_section_id'
@@ -245,6 +253,16 @@ class Qmerce_Settings
     }
 
     /**
+     * Print the helper text.
+     */
+    public function printHelperInfo()
+    {
+        printf(
+            'Get a token at <a href="' . QMERCE_EDITOR_BASEURL .'/#/register" target=_blank>Apester.com</a> (you can find it in your user <a href="' . QMERCE_EDITOR_BASEURL .'/#/settings" target=_blank>settings</a>.)'
+        );
+    }
+
+    /**
      * Get the settings option array and print one of its values
      */
     public function authTokenCallback()
@@ -252,10 +270,6 @@ class Qmerce_Settings
         printf(
             '<input type="text" id="auth_token" name="qmerce-settings-admin[auth_token]" value="%s" size="24" />',
             isset($this->options['auth_token'] ) ? esc_attr( $this->options['auth_token'] ) : ''
-        );
-
-        printf(
-            '<BR/>Get a token at <a href="' . QMERCE_EDITOR_BASEURL .'/#/register" target=_blank>Apester.com</a> (you can find it in your user <a href="' . QMERCE_EDITOR_BASEURL .'/#/settings" target=_blank>settings</a>.)<BR/>'
         );
     }
 }

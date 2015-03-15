@@ -115,7 +115,7 @@ class Qmerce_Admin_Box
             return;
         }
 
-        echo '<iframe id="qmerce_meta_box_suggestions" src="' . QMERCE_EDITOR_BASEURL . '/#/editor-suggestions/?access_token=' . $authToken . '" width="100%" height="160" scrolling="no"></iframe>';
+        echo '<iframe id="qmerce_meta_box_suggestions" src="' . QMERCE_EDITOR_BASEURL . '/#/editor-suggestions/wordpress?access_token=' . $authToken . '" width="100%" height="135" scrolling="no"></iframe>';
     }
 
     public function savePost($postId)

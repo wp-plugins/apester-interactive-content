@@ -31,7 +31,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
 define( 'QMERCE_MINIMUM_WORDPRESS_VERSION', '2.8' );
-define( 'QMERCE_VERSION', '1.8' );
+define( 'QMERCE_VERSION', '1.9' );
 define( 'QMERCE_SDK_VERSION', 'v1.1' );
 // For dev: define( 'QMERCE_SDK_VERSION', 'dev' );
 define( 'QMERCE_INTERACTION_BASEURL', 'http://interaction.qmerce.com' );

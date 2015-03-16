@@ -94,3 +94,7 @@ For more information please [Contact Us](mailto:info@qmerce.com).
 
 = 1.5 =
 * First working version.
+
+= 1.9 =
+* Redesign
+* Support publisher 

@@ -4,7 +4,7 @@ Contributors: benkalsky, tomarad, shushu.i
 Tags: Interactive, Interactive Content, Content, Related Content, Embedded Content, Test Yourself, Viral, Circulation, Engagement, Monetization, Playful Content, Interactive Platform, Playful Platform
 Requires at least: 2.8
 Tested up to: 4.1
-Stable tag: 1.9
+Stable tag: 1.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,16 @@ For more information please [Contact Us](mailto:info@qmerce.com).
 
 == Changelog ==
 
+= 1.11 =
+* Support CDN and random interactions.
+
+= 1.10 =
+* Support both HTTP and HTTPS servers.
+
+= 1.9 =
+* Redesign
+* Support publisher.
+
 = 1.7 =
 * Avoid showing random interactions when manual interactions exist on the same page.
 
@@ -94,7 +104,3 @@ For more information please [Contact Us](mailto:info@qmerce.com).
 
 = 1.5 =
 * First working version.
-
-= 1.9 =
-* Redesign
-* Support publisher 

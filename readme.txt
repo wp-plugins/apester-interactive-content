@@ -8,15 +8,21 @@ Stable tag: 1.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-With Apester you can create, embed and share interactive, playful and related content. It is easy, free and takes just few seconds.
+Take your first steps towards revolutionizing your digital storytelling with Apester! 
+Apester's Wordpress plugin enables you to entwine your reader's voice within your content! 
 
 == Description ==
 
 = Introduction =
 
-The Apester Interactive Content plugin allows anyone to easily and freely create, embed and share interactive, playful and related content items (polls, trivia, etc.) into posts and articles, in a matter of seconds.
+Take your first steps towards revolutionizing your digital storytelling with Apester!
+Apester's Wordpress plugin enables you to entwine your reader's voice within your content! 
 
-If you wish for better engagement, virality, circulation, native advertisement campaigns and monetization results, you came to the right place!
+Join hundreds of websites such as The Telegraph, AOL, Weather and more who are already empowering their readers and maximizing their websites' goals!
+
+Amazingly it's for FREE!
+
+Join now! 
 
 == Installation ==
 

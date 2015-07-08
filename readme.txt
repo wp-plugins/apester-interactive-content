@@ -18,7 +18,7 @@ Apester's Wordpress plugin enables you to entwine your reader's voice within you
 Take your first steps towards revolutionizing your digital storytelling with Apester!
 Apester's Wordpress plugin enables you to entwine your reader's voice within your content! 
 
-Join hundreds of websites such as The Telegraph, AOL, Weather and more who are already empowering their readers and maximizing their websites’ goals!
+Join hundreds of websites such as The Telegraph, AOL, Weather and more who are already empowering their readers and maximizing their websites' goals!
 
 Amazingly it's for FREE!
 

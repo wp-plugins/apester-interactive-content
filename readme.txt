@@ -9,18 +9,18 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Take your first steps towards revolutionizing your digital storytelling with Apester! 
-Apester's Wordpress plugin enables you to entwine your reader’s voice within your content! 
+Apester's Wordpress plugin enables you to entwine your reader's voice within your content! 
 
 == Description ==
 
 = Introduction =
 
 Take your first steps towards revolutionizing your digital storytelling with Apester!
-Apester's Wordpress plugin enables you to entwine your reader’s voice within your content! 
+Apester's Wordpress plugin enables you to entwine your reader's voice within your content! 
 
 Join hundreds of websites such as The Telegraph, AOL, Weather and more who are already empowering their readers and maximizing their websites’ goals!
 
-Amazingly it’s for FREE!
+Amazingly it's for FREE!
 
 Join now! 
 

@@ -4,25 +4,25 @@ Contributors: benkalsky, tomarad, shushu.i
 Tags: Interactive, Interactive Content, Content, Related Content, Embedded Content, Test Yourself, Viral, Circulation, Engagement, Monetization, Playful Content, Interactive Platform, Playful Platform
 Requires at least: 2.8
 Tested up to: 4.2.2
-Stable tag: 1.11
+Stable tag: 1.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Take your first steps towards revolutionizing your digital storytelling with Apester! 
-Apester's Wordpress plugin enables you to entwine your reader's voice within your content! 
+Take your first steps towards revolutionizing your digital storytelling with Apester!
 
 == Description ==
 
 = Introduction =
 
 Take your first steps towards revolutionizing your digital storytelling with Apester!
-Apester's Wordpress plugin enables you to entwine your reader's voice within your content! 
+Apester's Wordpress plugin enables you to entwine your reader's voice within your content!
 
 Join hundreds of websites such as The Telegraph, AOL, Weather and more who are already empowering their readers and maximizing their websites' goals!
 
 Amazingly it's for FREE!
 
-Join now! 
+Join now!
+
 
 == Installation ==
 
@@ -91,6 +91,12 @@ For more information please [Contact Us](mailto:info@qmerce.com).
 5. Interactive Trivia Results
 
 == Changelog ==
+
+= 1.13 =
+* Fix editor links.
+
+= 1.12 =
+* Load javascript SDK only when needed.
 
 = 1.11 =
 * Support CDN and random interactions.

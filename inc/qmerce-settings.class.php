@@ -258,7 +258,7 @@ class Qmerce_Settings
     public function printHelperInfo()
     {
         printf(
-            'Get a token at <a href="' . QMERCE_EDITOR_BASEURL .'/#/register" target=_blank>Apester.com</a> (you can find it in your user <a href="' . QMERCE_EDITOR_BASEURL .'/#/settings" target=_blank>settings</a>.)'
+            'Get a token at <a href="' . APESTER_EDITOR_BASEURL . '/register" target=_blank>Apester.com</a> (you can find it in your user <a href="' . APESTER_EDITOR_BASEURL . '/user/settings" target=_blank>settings</a>.)'
         );
     }
 

@@ -9,6 +9,7 @@ class QmerceTagComposer {
      */
     public function composeInteractionTag($interactionId)
     {
+        qmerce_add_sdk_for_shortcode();
         return '<interaction id="' . $interactionId . '"></interaction>';
     }
 
@@ -18,6 +19,7 @@ class QmerceTagComposer {
      */
     public function composeAutomationTag()
     {
+        qmerce_add_sdk_for_shortcode();
         return '<interaction data-random="' . $this->getAuthToken() . '"></interaction>';
     }
 
